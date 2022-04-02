@@ -257,7 +257,7 @@ table {
   height: 300px;
 }
 @media only screen
-and (min-width: 0)
+and (min-width: 600px)
 and (max-width: 1100px){
   .hero{
     justify-content: normal;
@@ -289,6 +289,30 @@ and (max-width: 1100px){
 @media only screen
 and (min-width: 0)
 and (max-width: 600px){
+  .hero{
+    justify-content: normal;
+    flex-direction: column;
+    padding: 0;
+  } 
+  .titleIherb{
+    margin: 0;
+  }
+  .navigation{
+    display: none;
+  }
+  .linksWrapper{
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .mainText{
+    margin: 0 auto;
+    font-size: 30px;
+    width: 100%;
+    height: 400px;
+  }
+  .saleButton{
+    margin: 15px auto;
+  }
   .titleBlogNatur{
     margin: 50px 0 0 10px;
     font-size: 40px;
@@ -297,11 +321,6 @@ and (max-width: 600px){
   .titleIherb{
     font-size: 70px;
     text-align: center;
-  }
-  .mainText{
-    font-size: 30px;
-    width: 100%;
-    height: 400px;
   }
   .realInstaWidget{
     width: 100%;
@@ -326,8 +345,5 @@ and (max-width: 600px){
   .socialNetworksLinksPhone{
     display: block;
     margin: 0 auto;
-  }
-  .linksWrapper{
-    padding: 0;
   }
 }
