@@ -1,0 +1,280 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.background{
+  position: relative;
+  padding-top: 5px;
+  width: 100%;
+  background: linear-gradient(180deg, #3C8502 0%, #679D3B 5.21%, #A6C68D 33.85%, #FFFFFF 100%);
+}
+.contentWrapper{
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+}
+.titleBlogNatur{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 70px;
+  line-height: 117px;
+  color: #FFFFFF;
+  margin: 70px 0 0 200px;
+}
+.titleIherb{
+  margin: 0 0 0 550px;
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 161px;
+  text-transform: uppercase;
+  font-feature-settings: 'zero' on;
+  color: #FFE4D7;
+}
+.hero{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px 0 50px;
+}
+.mainText{
+  width: 500px;
+  height: 500px;
+  font-family: 'Lobster';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 56px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  display: inline-flex;
+}
+.instaWidget{
+  display: inline-block;
+  height: 500px;
+  width: 500px;
+  background-image: url("../img/instaWidget.png");
+  background-size: contain;
+}
+.linksWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 0 0;
+  padding: 0 50px 0 20px;
+}
+.saleButton{
+  margin: 30px 0 0 0;
+  display: block;
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 43px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 400px;
+  height: 105px;
+  background: #F4B08F;
+  border-radius: 44px;
+  border: 0;
+}
+.firstBuyButton{
+  margin: 20px 0 0 0;
+  color: #000000;
+  background: #F3DA88;
+}
+.heroButtons{
+  display: inline-block;
+}
+.socialNetworks{
+  width: 500px;
+  height: 180px;
+  text-align: center;
+}
+.socialNetworksTitle{
+  display: block;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  margin: 0 0 20px 0;
+}
+.banner{
+  background-image: url("../img/banner.svg");
+  background-size: cover;
+  width: 100%;
+  max-width: 1600px;
+  height: 450px;
+  margin: 40px auto 0 auto;
+}
+.salesTitle{
+  margin: 40px 0 0 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 121px;
+  color: #383838;
+  display: block;
+  text-align: center;
+}
+.salesTime{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #383838;
+}
+.promocode{
+  padding: 10px 0 0 0;
+  width: 459px;
+  height: 155px;
+  margin: 60px auto 0;
+  background: #FFC2C7;
+  border-radius: 31px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+.boldPromocode{
+  font-size: 50px;
+  margin: 10px 0 0 0;
+  font-weight: 600;
+}
+.card{
+  height: 500px;
+  width: 300px;
+  display: inline-block;
+}
+.productSaleText{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 47px;
+  text-align: center;
+  color: #000000;
+  margin: 5px 0 0 0;
+}
+.bold{
+  font-weight: 700;
+  font-size: 34px;
+}
+.productSaleContent{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  gap: 20px;
+  margin: 100px auto 0 auto;
+  max-width: 1000px;
+}
+.productImg{
+  width: 300px;
+  height: 300px;
+}
+@media only screen
+and (min-width: 0)
+and (max-width: 1100px){
+  .hero{
+    justify-content: normal;
+    flex-direction: column;
+    padding: 0;
+  } 
+  .titleIherb{
+    margin: 0;
+  }
+  .navigation{
+    display: none;
+  }
+  .linksWrapper{
+    flex-direction: column-reverse;
+  }
+  .mainText{
+    margin: 0 auto;
+  }
+  .instaWidget{
+    margin: 0 auto;
+  }
+  .saleButton{
+    margin: 15px auto;
+  }
+  .socialNetworks{
+    margin: 0 auto;
+  }
+}
