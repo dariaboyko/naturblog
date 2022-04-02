@@ -309,6 +309,7 @@ and (max-width: 600px){
   }
   .socialNetworks{
     width: 100%;
+    max-width: 20px 0 0 0;
   }
   .promocode{
     width: 100%;
