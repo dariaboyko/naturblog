@@ -335,8 +335,8 @@ and (max-width: 600px){
     margin-bottom: 20px;
   }
   .salesTitle{
-    height: 250px;
-    font-size: 20px;
+    height: auto;
+    font-size: 30px;
   }
   .promocode{
     width: 100%;
