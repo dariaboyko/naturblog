@@ -328,7 +328,14 @@ and (max-width: 600px){
   }
   .socialNetworks{
     width: 100%;
-    margin: 40px 0 0 0;
+    margin: 20px 0 40px 0;
+  }
+  .firstBuyButton{
+    margin-bottom: 20px;
+  }
+  .salesTitle{
+    height: 300px;
+    font-size: smaller;
   }
   .promocode{
     width: 100%;
