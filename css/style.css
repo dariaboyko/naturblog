@@ -293,6 +293,7 @@ and (max-width: 600px){
     justify-content: normal;
     flex-direction: column;
     padding: 0;
+    height: auto;
   } 
   .titleIherb{
     margin: 0;
