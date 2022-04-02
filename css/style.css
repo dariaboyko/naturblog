@@ -170,6 +170,9 @@ table {
   color: #FFFFFF;
   margin: 0 0 20px 0;
 }
+.socialNetworksLinksPhone{
+  display: none;
+}
 .banner{
   background-image: url("../img/banner.svg");
   background-size: cover;
@@ -281,5 +284,49 @@ and (max-width: 1100px){
   }
   .socialNetworks{
     margin: 0 auto;
+  }
+}
+@media only screen
+and (min-width: 0)
+and (max-width: 600px){
+  .titleBlogNatur{
+    margin: 50px 0 0 10px;
+    font-size: 40px;
+    height: 100px;
+  }
+  .titleIherb{
+    font-size: 70px;
+    text-align: center;
+  }
+  .mainText{
+    font-size: 30px;
+    width: 100%;
+    height: 400px;
+  }
+  .realInstaWidget{
+    width: 100%;
+    height: 300px;
+  }
+  .socialNetworks{
+    width: 100%;
+  }
+  .promocode{
+    width: 100%;
+  }
+  .saleButton{
+    width: 100%;
+  }
+  .socialNetworksTitle{
+    font-size: 25px;
+  }
+  .socialNetworksLinks{
+    display: none;
+  }
+  .socialNetworksLinksPhone{
+    display: block;
+    margin: 0 auto;
+  }
+  .linksWrapper{
+    padding: 0;
   }
 }
