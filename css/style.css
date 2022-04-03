@@ -344,6 +344,10 @@ and (max-width: 600px){
   }
   .promocode{
     width: 100%;
+    padding: 10px;
+    line-height: 35px;
+    border-radius: 0;
+    height: auto;
   }
   .saleButton{
     width: 100%;
