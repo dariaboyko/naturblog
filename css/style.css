@@ -350,6 +350,11 @@ and (max-width: 600px){
     border-radius: 0;
     height: auto;
     margin: 35px auto 0;
+    font-size: 30px;
+  }
+  .boldPromocode {
+    font-size: 40px;
+    margin: 0;
   }
   .saleButton{
     width: 100%;
