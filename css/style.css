@@ -296,7 +296,9 @@ and (max-width: 600px){
     height: auto;
   } 
   .titleIherb{
-    margin: 0;
+    line-height: 100px;
+    margin: 0 0 10px 0;
+}
   }
   .navigation{
     display: none;
