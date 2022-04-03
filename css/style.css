@@ -362,4 +362,10 @@ and (max-width: 600px){
     display: block;
     margin: 0 auto;
   }
+  .card{
+    height: 420px;
+  }
+  .productSaleContent{
+    margin: 35px auto 0 auto;
+  }
 }
