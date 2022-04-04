@@ -123,7 +123,6 @@ table {
   display: inline-block;
   height: 500px;
   width: 500px;
-  margin: 0 auto;
 }
 .linksWrapper{
   display: flex;
@@ -277,7 +276,9 @@ and (max-width: 1100px){
   .mainText{
     margin: 0 auto;
   }
-  .instaWidget{
+  .realInstaWidget{
+    width: 100%;
+    height: auto;
     margin: 0 auto;
   }
   .saleButton{
@@ -330,6 +331,7 @@ and (max-width: 600px){
   .realInstaWidget{
     width: 100%;
     height: auto;
+    margin: 0 auto;
   }
   .socialNetworks{
     width: 100%;
