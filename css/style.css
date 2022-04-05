@@ -280,6 +280,7 @@ and (max-width: 1100px){
   }
   .linksWrapper{
     flex-direction: column-reverse;
+    margin: 0;
   }
   .mainText{
     margin: 0 auto;
