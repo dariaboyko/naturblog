@@ -272,7 +272,7 @@ and (max-width: 1100px){
     flex-direction: column;
     width: 100%;
     padding: 70px 0 55px 0;
-    background: linear-gradient(180deg, #3C8502 0%, #AECD96 100%);
+    background: #579725;
     margin: -55px 0 0 0;
     text-align: center;
     gap: 20px;
