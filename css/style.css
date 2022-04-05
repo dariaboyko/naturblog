@@ -374,8 +374,11 @@ and (max-width: 650px){
     line-height: 35px;
   }
   .saleButton{
+    padding: 10px;
     width: 100%;
     border-radius: 0;
+    height: fit-content;
+    line-height: 30px;
     font-size: 15px;
   }
   .titleBlogNatur{
