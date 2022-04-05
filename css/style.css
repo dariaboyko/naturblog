@@ -346,7 +346,7 @@ transform: rotate(-45deg);
 }
 @media only screen
 and (min-width: 0)
-and (max-width: 600px){
+and (max-width: 650px){
   .hero{
     justify-content: normal;
     flex-direction: column;
