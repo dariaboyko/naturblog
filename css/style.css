@@ -363,7 +363,7 @@ and (max-width: 650px){
     width: 100%;
     max-width: 650px;
     height: 250px;
-    margin: 40px auto 0 auto;
+    margin: 0 auto;
   }
   .titleIherb{
     line-height: 100px;
