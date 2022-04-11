@@ -267,6 +267,96 @@ color: #FFFFFF;
   width: 300px;
   height: 300px;
 }
+/*review.html*/
+.reviewBackground{
+  background: linear-gradient(180deg, #3B8500 0%, rgba(69, 133, 0, 0.66261) 19.27%, rgba(69, 133, 0, 0.682292) 35.42%, rgba(255, 194, 199, 0.46) 100%);
+}
+.reviewBackground .contentWrapper{
+  text-align: center;
+}
+.activeMenu{
+  text-decoration-line: underline;
+}
+.reviewsContent{
+  width: 100%;
+  margin: 20px 0 0 0;
+  padding: 0 0 30px 0;
+}
+.reviewWrapper{
+  width: 100%;
+  margin: 0 auto 30px;
+  max-width: 1100px ;  
+  background: #2552009E;
+  border: 3px solid #FFC2C7;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  position: relative;
+}
+.reviewPhoto{
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.reviewsTitle{
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+
+  color: #FFFFFF;
+  margin: 70px 0 0 0;
+}
+.reviewBanner{
+  width: 80%;
+  margin: 20px auto;
+}
+.reviewsMainText{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 35px;
+text-align: center;
+width: 60%;
+color: #FFFFFF;
+margin: 20px auto;
+}
+.reviewTitle{
+  display: inline;
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 50px;
+  color: #FFC2C7;
+}
+.reviewText{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 36px;
+  color: #FFFFFF;
+  grid-row-start: 2;
+  grid-row-end: 4;
+}
+.reviewLink{
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 37px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #FFC2C7;
+}
 @media only screen
 and (min-width: 0)
 and (max-width: 1100px){
@@ -356,6 +446,47 @@ transform: rotate(45deg);
 .cross:after {
 transform: rotate(-45deg);
 }
+.reviewsContent{
+  margin: 0;
+}
+.reviewBackground{
+  padding: 100px 0 20px 0;
+}
+.reviewBanner{
+  width: 100%;
+}
+.reviewsTitle{
+  font-size: 19px;
+  margin: 0;
+}
+}
+@media only screen
+and (min-width: 0)
+and (max-width: 935px){
+  .reviewWrapper{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 15px;
+  width: auto;
+  }
+  .reviewLink{
+  position: unset;
+  font-size: 13px;
+  width: 100%;
+  padding: 0 10px 0 0;
+  text-align: right;
+  }
+  .reviewTitle{
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .reviewText{
+    font-size: 14px;
+    line-height: 20px;
+    margin: 10px;
+  }
 }
 @media only screen
 and (min-width: 0)
@@ -452,5 +583,10 @@ and (max-width: 650px){
   }
   .productSaleContent{
     margin: 35px auto 0 auto;
+  }
+  .reviewsMainText{
+    width: 100%;
+    font-size: 22px;
+    line-height: 30px;
   }
 }
