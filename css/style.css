@@ -139,13 +139,14 @@ table {
 }
 .saleButton{
   margin: 0;
-  display: block;
+  display: flex;
   font-family: 'Rubik Mono One';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 43px;
   text-align: center;
+  align-items: center;
   color: #FFFFFF;
   width: 400px;
   height: 105px;
@@ -157,6 +158,9 @@ table {
   margin: 20px 0 0 0;
   color: #000000;
   background: #F3DA88;
+}
+.firstBuyButton:hover{
+color: #FFFFFF;
 }
 .heroButtons{
   display: inline-block;
