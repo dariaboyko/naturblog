@@ -357,6 +357,42 @@ margin: 20px auto;
   text-decoration-line: underline;
   color: #FFC2C7;
 }
+
+
+
+/*research.html*/
+.researchBackground{
+  background: linear-gradient(180deg, #3B8501 0%, #85B560 6.25%, #DEEED1 29.17%, #ECF7E3 99.99%, rgba(236, 247, 227, 0) 100%);
+}
+.researchBackground .reviewsTitle{
+  color: black;
+}
+.researchBackground .reviewsMainText{
+  width: 80%;
+  color: black;
+  text-align: left;
+  margin-top:40px ;
+}
+.researchBanner{
+  width: 500px;
+}
+.leftimg {
+  float:left;
+  margin: 4px 4px 4px 0;
+}
+.researchWrapper{
+  background: #ffff;
+}
+.researchWrapper .reviewTitle{
+  color: #AF7E82;
+}
+.researchWrapper .reviewText{
+  line-height: 25px;
+  color: black ;
+}
+.researchWrapper .reviewPhoto{
+  width: auto;
+}
 @media only screen
 and (min-width: 0)
 and (max-width: 1100px){
@@ -402,65 +438,71 @@ and (max-width: 1100px){
   .btn-menuWrapper{
     display: block;
     z-index: 2;
+    position: absolute;
+    width: 48px;
+    height: 39px;
+    left: 20px;
+    top: 25px;
+  }
+  .stripe{
+    width: 40px;
+    height: 5px;
+    margin: 0 0 8px 0;
+    background-color: white;
+  }
+  .btn-menu{
+    position: absolute;
+    width: 48px;
+    height: 31px;
+    background-color: transparent;
+    border: 0;
+    top: 0;
+    left: 0;
+  }
+  .btnHideMenu{
+    display: none;
+  }
+  .cross {
   position: absolute;
-  width: 48px;
-  height: 39px;
-  left: 20px;
-  top: 25px;
-}
-.stripe{
-  width: 40px;
-  height: 5px;
-  margin: 0 0 8px 0;
-  background-color: white;
-}
-.btn-menu{
-  position: absolute;
-  width: 48px;
-  height: 31px;
-  background-color: transparent;
-  border: 0;
-  top: 0;
-  left: 0;
-}
-.btnHideMenu{
-  display: none;
-}
-.cross {
-position: absolute;
-width: 100%;
-height: 100%;
-color: white;
-}
-.cross:before, .cross:after {
-position: absolute;
-left: 0;
-top: -19px;
-content: ' ';
-height: 48px;
-width: 5px;
-background-color: white;
-}
-.cross:before {
-transform: rotate(45deg);
-}
-.cross:after {
-transform: rotate(-45deg);
-}
-.reviewsContent{
-  margin: 0;
-}
-.reviewBackground{
-  padding: 100px 0 20px 0;
-}
-.reviewBanner{
   width: 100%;
+  height: 100%;
+  color: white;
+  }
+  .cross:before, .cross:after {
+  position: absolute;
+  left: 0;
+  top: -19px;
+  content: ' ';
+  height: 48px;
+  width: 5px;
+  background-color: white;
+  }
+  .cross:before {
+  transform: rotate(45deg);
+  }
+  .cross:after {
+  transform: rotate(-45deg);
+  }
+  .reviewsContent{
+    margin: 0;
+  }
+  .reviewBackground{
+    padding: 100px 0 20px 0;
+  }
+  .reviewBanner{
+    width: 100%;
+  }
+  .reviewsTitle{
+    font-size: 19px;
+    margin: 0;
+  }
+  .researchBackground{
+    padding: 100px 0 0 0;
+  }
 }
-.reviewsTitle{
-  font-size: 19px;
-  margin: 0;
-}
-}
+
+
+
 @media only screen
 and (min-width: 0)
 and (max-width: 935px){
