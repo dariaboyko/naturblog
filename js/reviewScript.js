@@ -8,7 +8,7 @@ const reviews =[
 ]
 const createCardContent = (object) => {
   const {title, imgUrl, text, link} = object;
-    const card = ` <div class="reviewWrapper"><img class="reviewPhoto" src="${imgUrl}"><a href="${link}" class="reviewTitle">${title}</a>
+    const card = ` <div class="reviewWrapper"><a href="${link}" class="reviewPhoto"><img width="250" height="250" src="${imgUrl}"></a><a href="${link}" class="reviewTitle">${title}</a>
     <div class="reviewText">${text}</div><a class="reviewLink" href="${link}">Читать статью >>></a> </div>`;
     return card;
 };

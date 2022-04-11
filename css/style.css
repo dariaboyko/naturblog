@@ -292,12 +292,28 @@ color: #FFFFFF;
   grid-template-columns: 300px 1fr;
   position: relative;
 }
+.reviewWrapper a:hover{
+  color: #FFFF;
+  text-decoration-line: underline;
+}
 .reviewPhoto{
+  display: block;
   width: 250px;
   height: 250px;
   margin: 10px;
   grid-row-start: 1;
   grid-row-end: 4;
+}
+.reviewPhoto{
+  background: #ffff;
+}
+.reviewPhoto img {
+  opacity: 1;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out;
+}
+.reviewPhoto:hover img {
+  opacity: .5;
 }
 .reviewsTitle{
   font-family: 'Rubik Mono One';
@@ -311,8 +327,9 @@ color: #FFFFFF;
   margin: 70px 0 0 0;
 }
 .reviewBanner{
-  width: 80%;
   margin: 20px auto;
+  max-height: 550px;
+  height: 100%;
 }
 .reviewsMainText{
   font-family: 'Roboto';
@@ -392,6 +409,9 @@ margin: 20px auto;
 }
 .researchWrapper .reviewPhoto{
   width: auto;
+}
+.researchWrapper a:hover{
+  color:#7D7B7B;
 }
 @media only screen
 and (min-width: 0)

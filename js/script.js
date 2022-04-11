@@ -215,7 +215,7 @@ const items = [
 const createCardContent = (object) => {
   const {name, imgUrl, sale, link} = object;
     const card = `<div class="card">
-    <a href="${link}"><img class="productImg" src="${imgUrl}" alt="${name}" usemap="#products">
+    <a href="${link}"><img class="productImg" src="${imgUrl}" alt="${name}">
     <div class="productSaleText"><span class="bold">${sale}%</span> на продукцию ${name}</div>
     </div></a>`;
     return card;

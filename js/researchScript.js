@@ -25,8 +25,10 @@ const articles =[
   }
 ]
 const createCardContent = (object) => {
-  const {title, imgUrl, text, link} = object;
-    const card = ` <div class="reviewWrapper researchWrapper"><img class="reviewPhoto" src="${imgUrl}"><a href="${link}" class="reviewTitle">${title}</a>
+  const {title, imgUrl, text, link, id} = object;
+    const card = ` <div class="reviewWrapper researchWrapper">
+    <a href="${link}" class="reviewPhoto"><img src="${imgUrl}" height="250"></a>
+    <a href="${link}" class="reviewTitle">${title}</a>
     <div class="reviewText">${text}</div><a class="reviewLink" href="${link}">Читать статью >>></a> </div>`;
     return card;
 };
