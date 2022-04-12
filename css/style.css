@@ -620,6 +620,8 @@ and (max-width: 1100px){
   .additiveTitle{
     font-size: 22px;
   }
+  .additiveBackground{
+    padding-top: 40px;
 }
 
 
