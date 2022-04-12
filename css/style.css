@@ -614,6 +614,12 @@ and (max-width: 1100px){
   .researchBackground{
     padding: 100px 0 0 0;
   }
+  .additivesTitle{
+    font-size: 25px;
+  }
+  .additiveTitle{
+    font-size: 22px;
+  }
 }
 
 
@@ -655,7 +661,7 @@ and (max-width: 935px){
   width: auto;
   }
   .additiveTitle{
-    font-size: 19px;
+    font-size: 20px;
     line-height: 29px;
     margin-top: 10px;
   }
@@ -763,5 +769,11 @@ and (max-width: 650px){
     width: 100%;
     font-size: 22px;
     line-height: 30px;
+  }
+  .additivesTitle{
+    font-size:22px ;
+  }
+  .additiveTitle{
+    font-size: 19px;
   }
 }
