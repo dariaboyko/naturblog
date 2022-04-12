@@ -32,8 +32,8 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1;
 }
-ol, ul {
-  list-style: none;
+li{
+  color: white;
 }
 a:active,
 a:hover,
@@ -41,6 +41,9 @@ a:focus,
 a {
   text-decoration: none;
   color: inherit;
+}
+.navigation a:hover{
+  text-decoration: underline;
 }
 blockquote, q {
   quotes: none;
@@ -374,6 +377,30 @@ margin: 20px auto;
   text-decoration-line: underline;
   color: #FFC2C7;
 }
+.footer{
+  margin: 200px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.footerTitle{
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 50px;
+  text-align: center;
+  color: #3B8500;
+}
+.footerUnderTitle{
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  text-align: center;
+  color: #AF7E82
+}
 
 
 
@@ -412,6 +439,73 @@ margin: 20px auto;
 }
 .researchWrapper a:hover{
   color:#7D7B7B;
+}
+
+
+
+
+/* topAdditives.html */
+.additiveBackground{
+  background: linear-gradient(180deg, #3B8500 0%, rgba(69, 133, 0, 0.66261) 19.27%, rgba(69, 133, 0, 0.682292) 35.42%, rgba(100, 154, 44, 0.784778) 56.25%, #C8E3B2 88.02%, #FFFFFF 98.44%);
+}
+.additiveBackground .reviewsTitle{
+  color: #FFC2C7;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+.bestOmegaCriterias{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 0 10px 0;
+}
+.bestOmegaCriterias li{
+  text-align: left;
+  font-size: 20px;
+}
+.bestOmegaCriteriasUl{
+  margin: 0 auto;
+  max-width: 800px;
+}
+.additiveOmegaContent{
+  margin: 50px 0 0 0;
+}
+.additiveWrapper{
+  width: 100%;
+  margin: 0 auto 30px;
+  max-width: 1000px ;  
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  position: relative;
+}
+.additivePhoto{
+  height: 250px;
+  width: 250px;
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+.additiveTitle{
+  font-family: 'Rubik Mono One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+  color: #FFE4D7;
+}
+.additiveText{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 30px;
+  text-align: center;
+  color: #FFFF;
+  margin: 10px;
 }
 @media only screen
 and (min-width: 0)
@@ -524,6 +618,7 @@ and (max-width: 1100px){
 
 
 
+
 @media only screen
 and (min-width: 0)
 and (max-width: 935px){
@@ -550,6 +645,22 @@ and (max-width: 935px){
     font-size: 14px;
     line-height: 20px;
     margin: 10px;
+  }
+  .additiveWrapper{
+    display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 15px;
+  width: auto;
+  }
+  .additiveTitle{
+    font-size: 20px;
+    line-height: 29px;
+    margin-top: 10px;
+  }
+  .additiveText{
+    font-size: 17px;
   }
 }
 @media only screen
