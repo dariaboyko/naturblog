@@ -446,7 +446,7 @@ margin: 20px auto;
 
 /* topAdditives.html */
 .additiveBackground{
-  background: linear-gradient(180deg, #3B8500 0%, rgba(69, 133, 0, 0.66261) 19.27%, rgba(69, 133, 0, 0.682292) 35.42%, rgba(100, 154, 44, 0.784778) 56.25%, #C8E3B2 88.02%, #FFFFFF 98.44%);
+  background: linear-gradient(180deg, #3B8500 0%, rgba(69, 133, 0, 0.66261) 19.27%, rgba(69, 133, 0, 0.682292) 35.42%, rgba(100, 154, 44, 0.784778) 60.42%, rgba(127, 174, 81, 0.844308) 64.58%, rgba(143, 186, 103, 0.87856) 78.65%, rgba(173, 207, 142, 0.941529) 88.54%, #C8E3B2 92.71%, #E1F1D6 100%);
 }
 .additiveBackground .reviewsTitle{
   color: #FFC2C7;
@@ -775,5 +775,11 @@ and (max-width: 650px){
   }
   .additiveTitle{
     font-size: 19px;
+  }
+  .footerTitle{
+    font-size: 24px;
+  }
+  .footerUnderTitle{
+    font-size: 18px;
   }
 }
