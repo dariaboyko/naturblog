@@ -691,10 +691,6 @@ and (max-width: 650px){
     height: 250px;
     margin: 0 auto;
   }
-  .titleIherb{
-    line-height: 100px;
-    margin: 0 0 10px 0;
-}
   .linksWrapper{
     flex-direction: column-reverse;
     padding: 0;
@@ -721,8 +717,10 @@ and (max-width: 650px){
     height: 100px;
   }
   .titleIherb{
-    font-size: 70px;
+    font-size: 65px;
     text-align: center;
+    line-height: 100px;
+    margin: 0 0 10px 0;
   }
   .realInstaWidget{
     width: 100%;
