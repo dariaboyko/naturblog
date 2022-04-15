@@ -510,6 +510,18 @@ margin: 20px auto;
   color: #FFFF;
   margin: 10px;
 }
+.researchPage .additiveText{
+  width: 70%;
+  margin: 10px auto 50px;
+}
+.researchPage .additiveText li{
+  text-align: left;
+}
+.researchArticlePageImg{
+  max-height: 500px;
+  display: block;
+  margin: 10px auto;
+}
 @media only screen
 and (min-width: 0)
 and (max-width: 1100px){
@@ -673,6 +685,13 @@ and (max-width: 935px){
   }
   .additiveText{
     font-size: 17px;
+  }
+  .researchPage .additiveText{
+    width: 90%;
+    margin: 10px auto 20px;
+  }
+  .researchArticlePageImg{
+    width: 100%;
   }
 }
 @media only screen
