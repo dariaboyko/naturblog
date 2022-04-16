@@ -1,0 +1,60 @@
+.researchPage .additiveText{
+    width: 70%;
+    margin: 10px auto 50px;
+  }
+  .researchPage .additiveText li{
+    text-align: left;
+  }
+  .researchArticlePageImg{
+    max-height: 500px;
+    display: block;
+    margin: 10px auto;
+  }
+  .candidaText{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    margin: 0 auto 20px;
+  }
+  .candidaStepsGrid{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+  .candidaStepsGrid .candidaText{
+    font-size: 20px;
+    line-height: 24px;
+    padding: 10px 30px;
+  }
+  .candidaStepsGrid .additivesTitle{
+    font-size: 30px;
+    margin: 50px 0 20px 0;
+  }
+  .candidaInfo{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 20px auto;
+  }
+  @media only screen
+  and (min-width: 0)
+  and (max-width: 810px){
+      .candidaText, .candidaInfo{
+         font-size: 18px;
+      }
+      .candidaStepsGrid .additivesTitle{
+        font-size: 20px;
+        margin: 20px 0 8px;
+      }
+      .candidaStepsGrid{
+          display: flex;
+          flex-direction: column;
+      }
+      .candidaStepsGrid .candidaText{
+        font-size: 15px;
+        line-height: 15px;
+        padding: 0;
+      }
+  }

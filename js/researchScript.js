@@ -15,7 +15,7 @@ const articles =[
     imgUrl: './img/researches/image3.png',
     title: 'ПРОТИВОГРИБКОВЫЙ ПРОТОКОЛ:стоп КАНДИДА',
     text: 'Candida albicans - грибок, вызывающий вагинальные дрожжевые инфекции, может размножаться в кишечнике, что приводит к множеству неприятных симптомов и потенциально увеличивает риск заболеваний и аутоиммунных состояний...',
-    link:''
+    link:'./html/stopCandida.html'
   },
   { id: 4,
     imgUrl: './img/researches/image4.png',
