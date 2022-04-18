@@ -32,11 +32,18 @@
     margin: 50px 0 20px 0;
   }
   .candidaInfo{
+    text-indent: 20px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 25px;
     margin: 20px auto;
+  }
+  .greyHaircontent .additiveText{
+      text-align: left;
+  }
+  .greyHaircontent .center{
+    text-align: center;
   }
   @media only screen
   and (min-width: 0)
@@ -57,4 +64,8 @@
         line-height: 15px;
         padding: 0;
       }
+      .greyHaircontent .additiveText{
+        width: auto;
+        margin: 5px 5px 15px 5px;
+    }
   }
