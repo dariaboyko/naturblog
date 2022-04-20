@@ -21,7 +21,7 @@ const articles =[
     imgUrl: './img/researches/image4.png',
     title: 'ЛУЧШИЕ пищевые добавки 2021 года по версии Better Nutrition Awards ',
     text: 'Борется с депрессией и тревогой.Существует три типа жирных кислот омега-3 : ALA, EPA и DHA. Из этих трех EPA, лучше всех борется с депрессией. Исследование показало, что EPA столь же эффективен против депрессии, как и обычный антидепрессант...',
-    link:''
+    link:'./html/betterNutritionAwards2021.html'
   }
 ]
 const createCardContent = (object) => {

@@ -45,6 +45,12 @@
   .greyHaircontent .center{
     text-align: center;
   }
+  .additiveText a{
+    text-decoration: underline;
+  }
+  .top2021 .additivesTitle{
+      margin-bottom: 10px;
+  }
   @media only screen
   and (min-width: 0)
   and (max-width: 810px){
