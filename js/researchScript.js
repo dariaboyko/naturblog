@@ -4,21 +4,21 @@ const articles = [
     imgUrl: "./img/researches/image1.png",
     title: "Преимущества для здоровья жирных кислот омега-3",
     text: "Борется с депрессией и тревогой.Существует три типа жирных кислот омега-3 : ALA, EPA и DHA. Из этих трех EPA, лучше всех борется с депрессией. Исследование показало, что EPA столь же эффективен против депрессии, как и обычный антидепрессант...",
-    link: "./html/researchArticles/omega3Article.html",
+    link: "./reasearchesHtmls/omega3Article.html",
   },
   {
     id: 2,
     imgUrl: "./img/researches/image2.png",
     title: "Могут ли витамины и добавки исправить седину? могут!",
     text: "Определенные витамины и минералы помогают гарантировать, что ваши волосяные фолликулы вырабатывают пигменты (меланин), которые необходимы волосам для сохранения естественного цвета...",
-    link: "./html/researchArticles/greyHair.html",
+    link: "./reasearchesHtmls/greyHair.html",
   },
   {
     id: 3,
     imgUrl: "./img/researches/image3.png",
     title: "ПРОТИВОГРИБКОВЫЙ ПРОТОКОЛ:стоп КАНДИДА",
     text: "Candida albicans - грибок, вызывающий вагинальные дрожжевые инфекции, может размножаться в кишечнике, что приводит к множеству неприятных симптомов и потенциально увеличивает риск заболеваний и аутоиммунных состояний...",
-    link: "./html/researchArticles/stopCandida.html",
+    link: "./reasearchesHtmls/stopCandida.html",
   },
   {
     id: 4,
@@ -26,7 +26,7 @@ const articles = [
     title:
       "ЛУЧШИЕ пищевые добавки 2021 года по версии Better Nutrition Awards ",
     text: "Борется с депрессией и тревогой.Существует три типа жирных кислот омега-3 : ALA, EPA и DHA. Из этих трех EPA, лучше всех борется с депрессией. Исследование показало, что EPA столь же эффективен против депрессии, как и обычный антидепрессант...",
-    link: "./html/researchArticles/betterNutritionAwards2021.html",
+    link: "./reasearchesHtmls/betterNutritionAwards2021.html",
   },
 ];
 const createCardContent = (object) => {
