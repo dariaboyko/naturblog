@@ -199,7 +199,7 @@ color: #FFFFFF;
   margin: 40px 0 0 0;
   font-family: 'Inter';
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 60px;
   line-height: 121px;
   color: #383838;
@@ -745,7 +745,7 @@ and (max-width: 650px){
   }
   .salesTitle{
     height: auto;
-    font-size: 30px;
+    font-size: 35px;
     line-height: 50px;
   }
   .promocode{
@@ -773,6 +773,17 @@ and (max-width: 650px){
   }
   .card{
     height: auto;
+    text-align: center;
+  }
+  .productSaleText{
+    font-size: 25px;
+  }
+  .bold{
+    font-size: 30px;
+  }
+  .productImg{
+    width: 250px;
+    height: 250px;
   }
   .productSaleContent{
     margin: 35px auto 0 auto;
