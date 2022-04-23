@@ -6,6 +6,13 @@ const reviews = [
     text: "Рыбий жир и жир печени трески являются отличными источниками полезных омега-3 EPA и DHA. Разница между ними в том, что жир печени...",
     link: "./reviewsHtmls/fishOils.html",
   },
+  {
+    id: 2,
+    imgUrl: "./img/reviews/bestYod.jpeg",
+    title: " 4 лучших йодных добавок на 2021 год",
+    text: "Добавки, которые назначают американские врачи. Йод - это важный минерал, который играет важную роль в поддержании здоровья и функции вашей щитовидной железы....",
+    link: "./reviewsHtmls/bestYod.html",
+  },
 ];
 const createCardContent = (object) => {
   const {title, imgUrl, text, link} = object;

@@ -64,6 +64,9 @@
     line-height: normal;
     margin: 10px 0 10px -10px;
   }
+   .bold{
+    font-weight: 700;
+  }
   @media only screen
   and (min-width: 0)
   and (max-width: 810px){
