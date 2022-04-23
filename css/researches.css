@@ -1,9 +1,17 @@
 .researchPage .additiveText{
     width: 70%;
     margin: 10px auto 50px;
+    text-indent:10px;
   }
+.researchPage .textWithoutIndent{
+  text-indent:0;
+}  
   .researchPage .additiveText li{
     text-align: left;
+  }
+  .greyHaircontent .additiveText li{
+    text-align: left;
+    margin-left: 15px;
   }
   .researchArticlePageImg{
     max-height: 500px;
@@ -50,6 +58,11 @@
   }
   .top2021 .additivesTitle{
       margin-bottom: 10px;
+  }
+  .miniLi{
+    text-align: center;
+    line-height: normal;
+    margin: 10px 0 10px -10px;
   }
   @media only screen
   and (min-width: 0)

@@ -1,11 +1,12 @@
-const reviews =[
-	{id: 1,
-        imgUrl: './img/reviews/iherbBrends.png',
-        title: 'ОБЗОР ПРОДУКЦИИ - ЛИЧНЫЙ БРЕНД iHERB',
-        text: 'Перед тем, как начать производить продукцию Личного бренда, iHerb проанализировал все популярные запросы своих покупателей. То есть, собственные бренды iHerb - это самые актуальные и востребованные товары...',
-        link:''
-    }
-]
+const reviews = [
+  {
+    id: 1,
+    imgUrl: "./img/reviews/fishOil.webp",
+    title: "Разница между рыбьим жиром и жиром печени трески",
+    text: "Рыбий жир и жир печени трески являются отличными источниками полезных омега-3 EPA и DHA. Разница между ними в том, что жир печени...",
+    link: "./reviewsHtmls/fishOils.html",
+  },
+];
 const createCardContent = (object) => {
   const {title, imgUrl, text, link} = object;
     const card = ` <div class="reviewWrapper"><a href="${link}" class="reviewPhoto"><img width="250" height="250" src="${imgUrl}"></a><a href="${link}" class="reviewTitle">${title}</a>
