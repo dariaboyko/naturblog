@@ -252,6 +252,7 @@ color: #FFFFFF;
   text-align: center;
   color: #000000;
   margin: 5px 0 0 0;
+  max-width: 300px;
 }
 .bold{
   font-weight: 700;
@@ -771,7 +772,7 @@ and (max-width: 650px){
     margin: 0 auto;
   }
   .card{
-    height: 420px;
+    height: auto;
   }
   .productSaleContent{
     margin: 35px auto 0 auto;
