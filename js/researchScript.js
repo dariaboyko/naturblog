@@ -28,6 +28,13 @@ const articles = [
     text: "Борется с депрессией и тревогой.Существует три типа жирных кислот омега-3 : ALA, EPA и DHA. Из этих трех EPA, лучше всех борется с депрессией. Исследование показало, что EPA столь же эффективен против депрессии, как и обычный антидепрессант...",
     link: "./reasearchesHtmls/betterNutritionAwards2021.html",
   },
+  {
+    id: 5,
+    imgUrl: "./img/researches/image5.jpeg",
+    title: " ВИТАМИН К2, ЧТО НУЖНО ЗНАТЬ ",
+    text: " Может помочь предотвратить сердечные заболевания. Накопление кальция в артериях вокруг сердца является огромным фактором риска сердечных заболеваний...",
+    link: "./reasearchesHtmls/vitaminK2.html",
+  },
 ];
 const createCardContent = (object) => {
   const {title, imgUrl, text, link, id} = object;
