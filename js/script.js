@@ -300,7 +300,7 @@ const exSales = [
   {
     id: 1,
     imgUrl: "./img/products/simplyOne240.png",
-    name: "Super Nutrition, SimplyOne, витамины D3 и K2, 240 капсул ",
+    name: "Super Nutrition, Simply One, витамины D3 и K2, 240 капсул ",
     sale: "30",
     onSale: true,
     link: "https://ua.iherb.com/pr/super-nutrition-vitamin-d3-k2-240-veggie-capsules/110695?rcode=CBY1100",
@@ -308,7 +308,7 @@ const exSales = [
   {
     id: 2,
     imgUrl: "./img/products/simplyOne60.png",
-    name: "Super Nutrition, SimplyOne, витамины D3 и K2, 60 капсул ",
+    name: "Super Nutrition, Simply One, витамины D3 и K2, 60 капсул ",
     sale: "30",
     onSale: true,
     link: "https://ua.iherb.com/pr/super-nutrition-vitamin-d3-k2-60-veggie-capsules/110694?rcode=CBY1100",
