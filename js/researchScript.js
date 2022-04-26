@@ -35,6 +35,13 @@ const articles = [
     text: " Может помочь предотвратить сердечные заболевания. Накопление кальция в артериях вокруг сердца является огромным фактором риска сердечных заболеваний...",
     link: "./reasearchesHtmls/vitaminK2.html",
   },
+  {
+    id: 5,
+    imgUrl: "./img/researches/image5.jpeg",
+    title: " 6 лучших доказательных добавок от мозгового тумана ",
+    text: "«Мозговой туман» сам по себе не является заболеванием, но относится к группе симптомов...",
+    link: "./reasearchesHtmls/additivesForBrains.html",
+  },
 ];
 const createCardContent = (object) => {
   const {title, imgUrl, text, link, id} = object;
