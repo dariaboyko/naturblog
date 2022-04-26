@@ -37,7 +37,7 @@ const articles = [
   },
   {
     id: 5,
-    imgUrl: "./img/researches/image5.jpeg",
+    imgUrl: "./img/researches/image6.png",
     title: " 6 лучших доказательных добавок от мозгового тумана ",
     text: "«Мозговой туман» сам по себе не является заболеванием, но относится к группе симптомов...",
     link: "./reasearchesHtmls/additivesForBrains.html",
@@ -46,7 +46,7 @@ const articles = [
 const createCardContent = (object) => {
   const {title, imgUrl, text, link, id} = object;
     const card = ` <div class="reviewWrapper researchWrapper">
-    <a href="${link}" class="reviewPhoto"><img src="${imgUrl}" height="250"></a>
+    <a href="${link}" class="reviewPhoto"><img src="${imgUrl}" height="250" width="270"></a>
     <a href="${link}" class="reviewTitle">${title}</a>
     <div class="reviewText">${text}</div><a class="reviewLink" href="${link}">Читать статью >>></a> </div>`;
     return card;

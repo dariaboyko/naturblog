@@ -1,7 +1,10 @@
 .researchPage .additiveText{
     width: 70%;
-    margin: 10px auto 50px;
+    margin: 10px auto 25px;
     text-indent:10px;
+  }
+  .researchPage .noIndent{
+    text-indent:0;
   }
 .researchPage .textWithoutIndent{
   text-indent:0;
@@ -64,7 +67,7 @@
     line-height: normal;
     margin: 10px 0 10px -10px;
   }
-   .bold{
+  .bold{
     font-weight: 700;
   }
   @media only screen
