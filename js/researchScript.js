@@ -36,11 +36,19 @@ const articles = [
     link: "./reasearchesHtmls/vitaminK2.html",
   },
   {
-    id: 5,
+    id: 6,
     imgUrl: "./img/researches/image6.png",
     title: " 6 лучших доказательных добавок от мозгового тумана ",
     text: "«Мозговой туман» сам по себе не является заболеванием, но относится к группе симптомов...",
     link: "./reasearchesHtmls/additivesForBrains.html",
+  },
+  {
+    id: 7,
+    imgUrl: "./img/researches/image7.png",
+    title:
+      "​​АСТАКСАНТИН, КОТОРЫЙ ОДОБРЕН И ПРОШЁЛ ПРОВЕРКУ НЕЗависимой лаборатории США ",
+    text: " Лучший природный астаксантин",
+    link: "./reasearchesHtmls/astacsantin.html",
   },
 ];
 const createCardContent = (object) => {
