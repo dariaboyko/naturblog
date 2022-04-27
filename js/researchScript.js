@@ -50,6 +50,13 @@ const articles = [
     text: " Лучший природный астаксантин",
     link: "./reasearchesHtmls/astacsantin.html",
   },
+  {
+    id: 8,
+    imgUrl: "./img/researches/image8.png",
+    title: "​​НУТРИЦЕВТИЧЕСКИЕ ПРЕПАРАТЫ С ANTI-AGE ЭФФЕКТОМ",
+    text: " Красота и молодость — это не только косметика, но и достаточный уровень питательных веществ...",
+    link: "./reasearchesHtmls/antiAge.html",
+  },
 ];
 const createCardContent = (object) => {
   const {title, imgUrl, text, link, id} = object;
